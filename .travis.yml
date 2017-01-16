@@ -1,4 +1,10 @@
 language: csharp
-solution: randomNumberGame.sln
+dist: trusty
+os: linux
+solution: RandomNumberGame.sln
 mono: none
-dotnet: 1.0.0-preview2-003121
+dotnet: 1.0.0-preview4-004233
+
+script:
+    - dotnet test ./tests/RNGTest.csproj -c Release
+    - dotnet build ./RandomNumberGame.csproj -c Release
