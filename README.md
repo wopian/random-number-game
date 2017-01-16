@@ -6,7 +6,8 @@ Simple text-based console game made with C#
 [![Github All Releases]][0]
 
 - Download the [latest release][0]
-  - Windows x64: `randomNumberGame.exe`
+  - Windows 64-bit: `randomNumberGame-64.exe`
+  - Windows 32-bit: `randomNumberGame-86.exe`
 - Run the executable
 
 ## Prerequisite
