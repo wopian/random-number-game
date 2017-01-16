@@ -9,6 +9,10 @@ Simple text-based console game made with C#
   - Windows x64: `randomNumberGame.exe`
 - Run the executable
 
+## Prerequisite
+
+- .NET Framework 4.5.2 or newer
+
 [GitHub Release]:https://img.shields.io/github/release/wopian/random-number-game.svg?style=flat-square
 [GitHub All Releases]:https://img.shields.io/github/downloads/wopian/random-number-game/total.svg?style=flat-square
 
