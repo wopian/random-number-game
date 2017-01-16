@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace randNum
+namespace randomNumberGame
 {
     // Create a class to store results in a list
     public class Score
@@ -91,7 +91,7 @@ namespace randNum
             // Center align exit message
             Console.SetCursorPosition((Console.WindowWidth / 2) - (21 / 2), playScore.Count + 3);
             Console.Write("Press any key to quit");
-            Console.Read();
+            Console.ReadKey();
         }
 
         private static void Game()
