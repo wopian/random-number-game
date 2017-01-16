@@ -3,7 +3,7 @@ dist: trusty
 os: linux
 solution: RandomNumberGame.sln
 mono: none
-dotnet: 1.0.0-preview4-004233
+dotnet: 1.0.0-preview2-003154
 
 script:
     - dotnet test ./tests/RNGTest.csproj -c Release
